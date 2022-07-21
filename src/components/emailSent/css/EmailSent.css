@@ -1,0 +1,47 @@
+.email-sent-container {
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #05e8ba;
+    background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+}
+
+.email-sent-container-card {
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 50%;
+    min-width: 400px;
+    max-height: 50%;
+    min-height: 500px;
+    position: relative;
+
+}
+
+.email-sent-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(23, 113, 230);
+    text-align: center;
+}
+
+#hr-email-sent {
+    height: 2px;
+    max-width: 20rem;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#hr-email-sent2 {
+    width: 220px;
+    height: 2px;
+    max-width: 20rem;
+    margin-left: 90px;
+    margin-right: 90px;
+}

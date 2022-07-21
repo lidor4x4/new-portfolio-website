@@ -1,0 +1,301 @@
+ @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+
+.about-me-continer {
+    height: 100vh;
+}
+
+.about-me {
+    background: linear-gradient(67deg, #753d37, #d21cdd);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    margin-bottom: 3rem;
+    padding-top: 8rem;
+}
+
+.about-me-title {
+    text-align: center;
+    font-family: 'assistant', sans-serif;
+    font-size: 2.5rem;
+}
+
+.about-me-desc {
+    text-align: center;
+    font-family: 'assistant', sans-serif;
+    font-size: 1.2rem;
+ }
+
+.about-me-my-skills-cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    top: -10rem;
+ }
+
+.about-me-my-skills-card-fornt-end {
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: .5rem;
+
+ }
+
+.about-me-my-skills-card-back-end {
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: .5rem;
+ }
+
+
+ /* Front End Card */
+.about-me-my-skills-front-end-card-icon-circle-overlay {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2rem;
+
+ }
+
+.about-me-my-skills-front-end-card-icon {
+    position: relative;
+    top: -3rem;
+ }
+
+.front-end-card-title {
+    font-weight: 700;
+    margin-bottom: 2rem;
+ }
+
+.front-end-card-desc {
+    font-weight: 600;
+    font-size: 1.3rem;
+ }
+
+.prog-leng-title-front-end-card {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #2b89f4;
+}
+
+.prog-leng-desc-front-end-card {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.dev-tools-title-front-end-card {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #19b67a;
+
+ }
+
+.dev-tools-desc-front-end-card {
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: circle;
+ }
+
+
+ /* Back End Card */
+
+.about-me-my-skills-back-end-card-icon-circle-overlay {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2rem;
+
+}
+
+.about-me-my-skills-back-end-card-icon {
+    position: relative;
+    top: -3rem;
+}
+
+.back-end-card-title {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+
+.back-end-card-desc {
+    font-weight: 600;
+    font-size: 1.3rem;
+ }
+
+
+.back-end-card-desc {
+    font-weight: 600;
+    font-size: 1.3rem;
+ }
+
+.prog-leng-title-back-end-card {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #2b89f4;
+ }
+
+.prog-leng-desc-back-end-card {
+    font-weight: 500;
+    font-size: 1.3rem;
+ }
+
+
+.dev-tools-title-back-end-card {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #19b67a;
+
+ }
+
+.dev-tools-desc-back-end-card {
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: circle;
+ }
+
+
+
+@media (max-width:641px) {
+    .about-me-my-skills-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        position: relative;
+        top: -10rem;
+    }
+
+    .front-end-card-desc {
+        font-size: 1.1rem;
+
+    }
+
+    .back-end-card-desc {
+        font-size: 1rem;
+    }
+ }
+
+
+
+ /* My Skills */
+
+.my-projects-continer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(69deg, #bd6bc9, #b33665);
+
+ }
+
+.my-projects-title {
+     font-weight: 700;
+     font-size: 2.5rem;
+     margin-bottom: 2rem;
+     color: #fff;
+ }
+
+.my-projects-desc {
+     font-weight: 600;
+     font-size: 1.1rem;
+     color: #fff;
+ }
+
+.my-projects-cards-continer {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+
+.my-projects-routy-card {
+     width: 25rem;
+     height: 15rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #fff;
+     border: .2rem solid #E6EDF6;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+     border-radius: .5rem;
+     position: relative;
+     top: -5rem;
+}
+
+.routy-logo {
+     margin-top: 1rem;
+}
+.my-projects-routy-desc{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.routy-link{
+    text-decoration: none;
+    background-color: #ECEDEF;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+
+/*  collaborating with me */
+
+
+.collaborating-with-me-continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.collaborating-with-me-title{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+.collaborating-with-me-button{
+    cursor: pointer;
+    outline: none;
+}
+
+.outline-btn{
+    position: relative;
+    z-index: 3;
+    background: transparent;
+    color: #1172c4;
+    font-size: 14px;
+    border-color: #1172c4;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 22px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+}
+.outline-btn:hover{
+    color: white;
+    background: #6E07F3;
+    border-color: white;
+    transition: all 0.2s linear;
+}
+
+.white-purple{
+    font-weight: 700;
+    color: #6E07F3;
+    border-color: #6E07F3;
+    background: transparent;
+}
