@@ -19,7 +19,7 @@ export default function AboutMe() {
         </p>
         <p className="about-me-desc">
           from the planning to the final delivery. perpetually working on
-          improving my chops one design problem at a time.
+          improving my chops one programming problem at a time.
         </p>
       </div>
       <div className="about-me-my-skills-cards-container">
@@ -147,7 +147,11 @@ export default function AboutMe() {
           >
             <FontAwesomeIcon icon="fa-brands fa-github" size="2xl" />
           </motion.buttom>
-          <motion.buttom whileHover={{scale:1.1}} onClick={() => window.location.href="/contact"} className="email-button">
+          <motion.buttom
+            whileHover={{ scale: 1.1 }}
+            onClick={() => (window.location.href = "/contact")}
+            className="email-button"
+          >
             <FontAwesomeIcon icon="fa-regular fa-envelope" size="2xl" />
           </motion.buttom>
         </div>
