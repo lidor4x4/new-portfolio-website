@@ -1,6 +1,8 @@
 import "./css/AboutMe.css";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
+
 import routyLogo from "./logos/routy-logo-removebg-preview.png";
 
 export default function AboutMe() {
@@ -96,8 +98,8 @@ export default function AboutMe() {
           challenge to try designing and building my own.
         </p>
         <hr />
-        <hr />
-        <hr />
+        <br />
+        <br />
       </div>
       <div className="my-projects-cards-continer">
         <div className="my-projects-routy-card">
@@ -119,9 +121,37 @@ export default function AboutMe() {
           I’m always open to discussing product code work or partnership
           opportunities.
         </p>
-        <button onClick={() => window.location.href="/contact"} className="collaborating-with-me-button white-purple outline-btn">
+        <button
+          onClick={() => (window.location.href = "/contact")}
+          className="collaborating-with-me-button white-purple outline-btn"
+        >
           <FontAwesomeIcon icon="message" /> Start a conversation
         </button>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div className="about-me-footer">
+        <h2 className="about-me-footer-title">
+          Living, learning, & leveling up
+        </h2>
+        <h2 className="about-me-footer-title mb-10">one day at a time.</h2>
+
+        <div className="social-buttons-continer">
+          <motion.buttom
+            onClick={() =>
+              (window.location.href = "https://github.com/lidor4x4")
+            }
+            className="github-button"
+            whileHover={{ scale: 1.1 }}
+          >
+            <FontAwesomeIcon icon="fa-brands fa-github" size="2xl" />
+          </motion.buttom>
+          <motion.buttom whileHover={{scale:1.1}} onClick={() => window.location.href="/contact"} className="email-button">
+            <FontAwesomeIcon icon="fa-regular fa-envelope" size="2xl" />
+          </motion.buttom>
+        </div>
+        <p className="copyright pt-10">Handcrafted by me © LidorH</p>
       </div>
     </div>
   );

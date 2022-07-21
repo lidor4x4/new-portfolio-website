@@ -6,7 +6,7 @@
 }
 
 .about-me {
-    background: linear-gradient(67deg, #753d37, #d21cdd);
+    background-color: #6E07F3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,12 +19,14 @@
     text-align: center;
     font-family: 'assistant', sans-serif;
     font-size: 2.5rem;
+    color: #fff;
 }
 
 .about-me-desc {
     text-align: center;
     font-family: 'assistant', sans-serif;
     font-size: 1.2rem;
+    color: #fff;
  }
 
 .about-me-my-skills-cards-container {
@@ -169,25 +171,6 @@
 
 
 
-@media (max-width:641px) {
-    .about-me-my-skills-cards-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        position: relative;
-        top: -10rem;
-    }
-
-    .front-end-card-desc {
-        font-size: 1.1rem;
-
-    }
-
-    .back-end-card-desc {
-        font-size: 1rem;
-    }
- }
 
 
 
@@ -198,7 +181,7 @@
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     background: linear-gradient(69deg, #bd6bc9, #b33665);
+     background: linear-gradient(69deg, #962491, #975c64);
 
  }
 
@@ -266,6 +249,10 @@
     font-size: 2rem;
 }
 
+.collaborating-with-me-desc{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
 
 .collaborating-with-me-button{
     cursor: pointer;
@@ -298,4 +285,81 @@
     color: #6E07F3;
     border-color: #6E07F3;
     background: transparent;
+}
+
+/* footer */
+
+.about-me-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6E07F3;
+    height: 20rem;
+
+}
+
+.about-me-footer-title{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+.social-buttons-continer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.github-button{
+    background-color: #fff;
+    border: .2rem solid #E6EDF6;
+    border-radius: 50%;
+}
+.email-button{
+    background-color: #fff;
+    border: .2rem solid #E6EDF6;
+    border-radius: 50%;
+}
+
+.copyright{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+/* Responsive */
+
+@media (max-width:641px) {
+    .about-me-desc {
+        font-size: 1.1rem;
+    }
+    
+    .about-me-my-skills-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        position: relative;
+        top: -10rem;
+    }
+
+    .front-end-card-desc {
+        font-size: 1.1rem;
+
+    }
+
+    .back-end-card-desc {
+        font-size: 1rem;
+    }
+
+    .my-projects-desc {
+        font-size: .9rem;
+    }
+    .collaborating-with-me-desc{
+        font-size: .9rem;
+    }  
 }

@@ -7,93 +7,39 @@
     justify-content: center;
     font-family: 'assistant', sans-serif;
     height: 100vh;
+    background: linear-gradient(283deg, #162545, #cb26ba);
 }
 
-.navbar-button {
-    position: absolute;
-    right: 10px;
-    top: 7px;
-    font-size: 18px;
-}
-
-
-.hero-section-img{
-    width: 100vw;
-    height: 73rem;
-    background: linear-gradient(190deg, #f61653, #db3563);
-    position: relative;
-}
-
-.nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+.title-home{
     color: #fff;
-    list-style: none;
-    cursor: pointer;
-
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
 }
 
-.nav-item1{
-    position: fixed;
-    top: 3rem;
-    margin-right: 15rem;
-
+.desc-home{
+    color: #1172c4;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
-.nav-item2{
-    position: fixed;
-    top: 3rem;
-    margin-left: 17rem;
-}
 
-.nav-item3{
-    position: fixed;
-    top: 3rem;
-}
-
-.hero-section-me{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+.home-nav{
     color: #fff;
-    list-style: none;
+    font-size: 2.5rem;
     cursor: pointer;
-    position: absolute;
-    top: 40%;
-    left: 51.5%;
-    transform: translate(-50%, -50%);
 }
 
-
-@media (min-width:320px) {
-    /* smartphones, iPhone, portrait 480x320 phones */
-    .nav {
-        flex-direction: row;
-    }
-
+.home-nav-link{
+    text-decoration: none;
+    color: #fff;
 }
 
-@media (min-width:481px) {
-    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+.home-nav-link:hover{
+    color: #fff;
 }
 
-@media (min-width:641px) {
-    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-}
-
-@media (min-width:961px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width:1025px) {
-    /* big landscape tablets, laptops, and desktops */
-}
-
-@media (min-width:1281px) {
-    /* hi-res laptops and desktops */
+.home-nav-link:visited{
+    color: #fff;
 }
